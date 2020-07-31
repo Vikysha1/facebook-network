@@ -1,0 +1,118 @@
+/* Navigation bar */
+.navbar {
+    color: white;
+    background-color: #5dbcd2;
+    font-size: xx-large;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: 30px;
+    width: 100%;
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+}
+
+/* Seytech */
+.active {
+    background-color: #003056;
+    width: 15%;
+    padding: 0 10px 0 0;
+}
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 16px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #5dbcd2;
+    color: white;
+    padding: 0px;
+    font-size: xx-large;
+    border: none;
+}
+
+/* The container <div> */
+.dropdown {
+    position: fixed;
+    display: inline-block;
+}
+
+/* Dropdown Content */
+.dropdown-content {
+    background-color: white;
+    display: none;
+    position: fixed;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Paragraphs inside the dropdown */
+.dropdown-content p {
+    color: black;
+    padding: 0;
+    text-decoration: none;
+    display: block;
+    font-style: normal;
+    font-size: medium;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: darkgrey;
+}
+
+.badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 25px;
+    background: #3a9b3f;
+    color: white;
+}
+
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 15px 25px 15px 25px;
+    float: right;
+}
+
+/* FOOTER --------- */
+.footer {
+    background-color: #5dbcd2;
+    color: white;
+    text-align: left;
+    width: 100%;
+    line-height: 20px;
+    position: absolute;
+    bottom: 35px;
+    padding: 20px 5px 20px 5px;
+    font-size: medium;
+    font-style: normal;
+}
+.bottom-footer {
+    background-color: #003056;
+    color: white;
+    text-align: left;
+    width: 100%;
+    padding: 10px 5px 10px 5px;
+    font-size: medium;
+    font-style: normal;
+    position: absolute;
+    bottom: 0;
+}
